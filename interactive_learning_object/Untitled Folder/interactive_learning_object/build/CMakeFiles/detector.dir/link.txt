@@ -1,0 +1,2 @@
+/usr/bin/ar cr libdetector.a  CMakeFiles/detector.dir/detector/detector.cpp.o CMakeFiles/detector.dir/learn_obj.cpp.o
+/usr/bin/ranlib libdetector.a

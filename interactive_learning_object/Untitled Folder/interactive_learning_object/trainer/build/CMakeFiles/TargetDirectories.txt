@@ -1,0 +1,4 @@
+/home/june/ClionProjects/interactive_learning_object/trainer/build/CMakeFiles/detector.dir
+/home/june/ClionProjects/interactive_learning_object/trainer/build/dlib_build/CMakeFiles/dlib.dir
+/home/june/ClionProjects/interactive_learning_object/trainer/build/CMakeFiles/trainer.dir
+/home/june/ClionProjects/interactive_learning_object/trainer/build/CMakeFiles/trainer_example.dir

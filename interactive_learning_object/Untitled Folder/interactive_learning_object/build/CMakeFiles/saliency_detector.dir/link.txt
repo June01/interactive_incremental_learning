@@ -1,0 +1,2 @@
+/usr/bin/ar cr libsaliency_detector.a  CMakeFiles/saliency_detector.dir/saliency_detector/saliency_detector.cpp.o CMakeFiles/saliency_detector.dir/learn_obj.cpp.o
+/usr/bin/ranlib libsaliency_detector.a

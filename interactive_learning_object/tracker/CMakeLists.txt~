@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 2.8)
+project(TRACKER)
+find_package(OpenCV)
+if(UNIX)
+    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++0x")
+endif()
+
+include(/home/june/dlibProjects/dlib-18.18/dlib/cmake)
+include(/home/june/ClionProjects/incrementalLearningObject)
+add_library(tracker learn_obj.h tracker.h tracker.cpp)
+add_executable(tracker_example tracker_example.cpp)
+
+target_link_libraries(tracker_example tracker dlib opencv_highgui opencv_core opencv_imgproc)
+

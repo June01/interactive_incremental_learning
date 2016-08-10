@@ -1,0 +1,20 @@
+Determining if the function sgetrf_single exists failed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2235554169/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2235554169.dir/build.make CMakeFiles/cmTryCompileExec2235554169.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2235554169.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgetrf_single   -o CMakeFiles/cmTryCompileExec2235554169.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2235554169
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2235554169.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgetrf_single    CMakeFiles/cmTryCompileExec2235554169.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2235554169 -rdynamic -lopenblas 
+CMakeFiles/cmTryCompileExec2235554169.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sgetrf_single'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2235554169] Error 1
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2235554169/fast] Error 2
+
+

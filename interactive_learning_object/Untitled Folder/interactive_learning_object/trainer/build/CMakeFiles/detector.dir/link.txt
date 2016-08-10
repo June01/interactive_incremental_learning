@@ -1,0 +1,2 @@
+/usr/bin/ar cr libdetector.a  CMakeFiles/detector.dir/home/june/ClionProjects/interactive_learning_object/detector/detector.cpp.o CMakeFiles/detector.dir/home/june/ClionProjects/interactive_learning_object/learn_obj.cpp.o
+/usr/bin/ranlib libdetector.a

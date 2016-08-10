@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 2.8)
+project(TRAINER)
+find_package(OpenCV)
+if(UNIX)
+    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++0x")
+endif()
+set(CMAKE_DIRECTORY "/home/june/dlibProjects/dlib-18.18/dlib/cmake")
+set(HEADER_FILE "/home/june/ClionProjects/interactive_learning_object")
+include(${CMAKE_DIRECTORY})
+include_directories(${HEADER_FILE} ${HEADER_FILE}/detector)
+add_library(trainer trainer.cpp ${HEADER_FILE}/learn_obj.cpp)
+add_library(detector ${HEADER_FILE}/detector/detector.cpp ${HEADER_FILE}/learn_obj.cpp)
+add_executable(trainer_example trainer_example.cpp)
+
+target_link_libraries(trainer_example trainer detector dlib opencv_highgui opencv_core opencv_imgproc)
+

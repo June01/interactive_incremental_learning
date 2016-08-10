@@ -1,0 +1,488 @@
+The system is: Linux - 3.13.0-79-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2859277976/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2859277976.dir/build.make CMakeFiles/cmTryCompileExec2859277976.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2859277976.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2859277976.dir/testCCompiler.c.o   -c /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2859277976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2859277976.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2859277976.dir/testCCompiler.c.o  -o cmTryCompileExec2859277976 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec190796643/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec190796643.dir/build.make CMakeFiles/cmTryCompileExec190796643.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec190796643.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec190796643.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec190796643
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec190796643.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec190796643.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec190796643 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.3-12ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --enable-objc-gc --with-cloog --enable-cloog-backend=ppl --disable-cloog-version-check --disable-ppl-version-check --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.3 (Ubuntu/Linaro 4.7.3-12ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec190796643' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec190796643 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec190796643.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec190796643/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec190796643.dir/build.make CMakeFiles/cmTryCompileExec190796643.dir/build]
+  ignore line: [make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec190796643.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec190796643.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec190796643]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec190796643.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec190796643.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec190796643 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.3-12ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --enable-objc-gc --with-cloog --enable-cloog-backend=ppl --disable-cloog-version-check --disable-ppl-version-check --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.3 (Ubuntu/Linaro 4.7.3-12ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec190796643' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec190796643 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec190796643.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec190796643] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec190796643.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4168903199/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4168903199.dir/build.make CMakeFiles/cmTryCompileExec4168903199.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4168903199.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4168903199.dir/testCXXCompiler.cxx.o -c /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4168903199
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4168903199.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec4168903199.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4168903199 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3633897092/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3633897092.dir/build.make CMakeFiles/cmTryCompileExec3633897092.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3633897092.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3633897092.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3633897092
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3633897092.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3633897092.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3633897092 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.3-12ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --enable-objc-gc --with-cloog --enable-cloog-backend=ppl --disable-cloog-version-check --disable-ppl-version-check --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.3 (Ubuntu/Linaro 4.7.3-12ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3633897092' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3633897092 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec3633897092.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3633897092/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3633897092.dir/build.make CMakeFiles/cmTryCompileExec3633897092.dir/build]
+  ignore line: [make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3633897092.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3633897092.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3633897092]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3633897092.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3633897092.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3633897092 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.3-12ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --enable-objc-gc --with-cloog --enable-cloog-backend=ppl --disable-cloog-version-check --disable-ppl-version-check --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.3 (Ubuntu/Linaro 4.7.3-12ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3633897092' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3633897092 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec3633897092.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3633897092] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec3633897092.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec362537444/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec362537444.dir/build.make CMakeFiles/cmTryCompileExec362537444.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec362537444.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec362537444.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec362537444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec362537444.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec362537444.dir/CheckFunctionExists.c.o  -o cmTryCompileExec362537444 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3635446269/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3635446269.dir/build.make CMakeFiles/cmTryCompileExec3635446269.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3635446269.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3635446269.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3635446269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3635446269.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3635446269.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3635446269 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2356083341/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2356083341.dir/build.make CMakeFiles/cmTryCompileExec2356083341.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2356083341.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec2356083341.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2356083341
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2356083341.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec2356083341.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2356083341 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3286305197/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3286305197.dir/build.make CMakeFiles/cmTryCompileExec3286305197.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3286305197.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3286305197.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3286305197
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3286305197.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3286305197.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3286305197 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3502300788/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3502300788.dir/build.make CMakeFiles/cmTryCompileExec3502300788.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3502300788.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec3502300788.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3502300788
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3502300788.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec3502300788.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3502300788 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1128006430/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1128006430.dir/build.make CMakeFiles/cmTryCompileExec1128006430.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1128006430.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec1128006430.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1128006430
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1128006430.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec1128006430.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1128006430 -rdynamic -lICE 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function png_create_read_struct exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3359678555/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3359678555.dir/build.make CMakeFiles/cmTryCompileExec3359678555.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3359678555.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct   -o CMakeFiles/cmTryCompileExec3359678555.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3359678555
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3359678555.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=png_create_read_struct    CMakeFiles/cmTryCompileExec3359678555.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3359678555 -rdynamic -lpng 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function jpeg_read_header exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3174966950/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3174966950.dir/build.make CMakeFiles/cmTryCompileExec3174966950.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3174966950.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header   -o CMakeFiles/cmTryCompileExec3174966950.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3174966950
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3174966950.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=jpeg_read_header    CMakeFiles/cmTryCompileExec3174966950.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3174966950 -rdynamic -ljpeg 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec900097236/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec900097236.dir/build.make CMakeFiles/cmTryCompileExec900097236.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec900097236.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec900097236.dir/CheckIncludeFile.c.o   -c /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec900097236
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec900097236.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec900097236.dir/CheckIncludeFile.c.o  -o cmTryCompileExec900097236 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3718562600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3718562600.dir/build.make CMakeFiles/cmTryCompileExec3718562600.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3718562600.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3718562600.dir/CheckIncludeFile.c.o   -c /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3718562600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3718562600.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3718562600.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3718562600 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2432010647/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2432010647.dir/build.make CMakeFiles/cmTryCompileExec2432010647.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2432010647.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2432010647.dir/CheckIncludeFile.c.o   -c /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2432010647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2432010647.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2432010647.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2432010647 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3587373949/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3587373949.dir/build.make CMakeFiles/cmTryCompileExec3587373949.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3587373949.dir/SIZE_OF_VOID_PTR.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3587373949.dir/SIZE_OF_VOID_PTR.c.o   -c /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+Linking C executable cmTryCompileExec3587373949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3587373949.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3587373949.dir/SIZE_OF_VOID_PTR.c.o  -o cmTryCompileExec3587373949 -rdynamic -ljpeg 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cblas_ddot exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3754049831/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3754049831.dir/build.make CMakeFiles/cmTryCompileExec3754049831.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3754049831.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot   -o CMakeFiles/cmTryCompileExec3754049831.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3754049831
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3754049831.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot    CMakeFiles/cmTryCompileExec3754049831.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3754049831 -rdynamic -lopenblas 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler has std namespace passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4102406911/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4102406911.dir/build.make CMakeFiles/cmTryCompileExec4102406911.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4102406911.dir/TestForSTDNamespace.cxx.o
+/usr/bin/c++    -std=gnu++0x -pthread -Wreturn-type    -o CMakeFiles/cmTryCompileExec4102406911.dir/TestForSTDNamespace.cxx.o -c /usr/share/cmake-2.8/Modules/TestForSTDNamespace.cxx
+Linking CXX executable cmTryCompileExec4102406911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4102406911.dir/link.txt --verbose=1
+/usr/bin/c++    -std=gnu++0x -pthread -Wreturn-type     CMakeFiles/cmTryCompileExec4102406911.dir/TestForSTDNamespace.cxx.o  -o cmTryCompileExec4102406911 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file iostream exists passed with the following output:
+Change Dir: /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2303281446/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2303281446.dir/build.make CMakeFiles/cmTryCompileExec2303281446.dir/build
+make[1]: Entering directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2303281446.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=gnu++0x -pthread -Wreturn-type    -o CMakeFiles/cmTryCompileExec2303281446.dir/CheckIncludeFile.cxx.o -c /home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2303281446
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2303281446.dir/link.txt --verbose=1
+/usr/bin/c++    -std=gnu++0x -pthread -Wreturn-type     CMakeFiles/cmTryCompileExec2303281446.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2303281446 -rdynamic 
+make[1]: Leaving directory `/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/CMakeTmp'
+
+

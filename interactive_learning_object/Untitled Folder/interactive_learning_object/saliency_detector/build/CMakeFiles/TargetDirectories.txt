@@ -1,0 +1,2 @@
+/home/june/ClionProjects/interactive_learning_object/saliency_detector/build/CMakeFiles/saliency_detector.dir
+/home/june/ClionProjects/interactive_learning_object/saliency_detector/build/CMakeFiles/saliency_example.dir

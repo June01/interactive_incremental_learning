@@ -1,0 +1,2 @@
+/usr/bin/ar cr libtrainer.a  CMakeFiles/trainer.dir/trainer/trainer.cpp.o CMakeFiles/trainer.dir/learn_obj.cpp.o
+/usr/bin/ranlib libtrainer.a

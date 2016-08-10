@@ -1,0 +1,6 @@
+/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/detector.dir
+/home/june/ClionProjects/interactive_learning_object/build/dlib_build/CMakeFiles/dlib.dir
+/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/learn_object_pipeline.dir
+/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/saliency_detector.dir
+/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/tracker.dir
+/home/june/ClionProjects/interactive_learning_object/build/CMakeFiles/trainer.dir

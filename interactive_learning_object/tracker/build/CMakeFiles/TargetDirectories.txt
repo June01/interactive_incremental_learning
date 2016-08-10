@@ -1,0 +1,3 @@
+/home/june/ClionProjects/interactive_learning_object/tracker/build/dlib_build/CMakeFiles/dlib.dir
+/home/june/ClionProjects/interactive_learning_object/tracker/build/CMakeFiles/tracker.dir
+/home/june/ClionProjects/interactive_learning_object/tracker/build/CMakeFiles/tracker_example.dir

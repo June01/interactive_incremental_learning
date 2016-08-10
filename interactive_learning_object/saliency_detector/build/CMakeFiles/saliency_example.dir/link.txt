@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=gnu++0x     CMakeFiles/saliency_example.dir/saliency_example.cpp.o  -o saliency_example -rdynamic libsaliency_detector.a /usr/local/lib/libopencv_highgui.so.2.4.9 /usr/local/lib/libopencv_core.so.2.4.9 /usr/local/lib/libopencv_imgproc.so.2.4.9 /usr/local/lib/libopencv_core.so.2.4.9 -Wl,-rpath,/usr/local/lib 
